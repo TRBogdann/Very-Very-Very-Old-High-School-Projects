@@ -1,0 +1,232 @@
+
+/*frontpage*/
+
+*,*::after,*::before
+{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0;
+    padding:0;
+    
+   
+}
+html{
+  overflow: hidden;
+  font-size:10px  ;
+  text-shadow: 0.2rem 0.2rem black;
+}
+@media screen and (min-width:0px) {
+    html{
+        font-size: 5px;;
+    }
+    .frontdiv
+    {
+        background-image: url(bg.jpeg);
+    }
+ 
+       
+        .menu1  {
+            width:4rem ;
+        }
+        .menutxt{
+            margin-left:6rem;
+        }
+    
+    }
+    @media screen and (min-width:1250px) {
+        html{
+            font-size: 10px;;
+        }
+        .frontdiv
+        {
+            background-image: url(granada.jpg);
+        }
+     
+        .menu1  {
+            width:4rem ;
+            
+        }
+        .menutxt{
+            margin-left:6rem;
+        }
+    
+    }
+
+
+.frontpage
+{display:grid;
+align-items: flex-end;
+
+}
+.frontdiv
+{background-color:blue;
+  
+   height: 100vh;;
+   width:100vw;
+   font-size:2rem;
+   
+
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+   
+}
+
+.frontpage
+{
+background-color: #FBDD7A;
+}
+
+/*#088F8F */
+
+#hd1
+{padding-top:10rem;
+color:white;
+font-size: 6rem;
+
+}
+#hd2
+{padding-top:10rem;
+color:white;
+font-size: 6rem;
+padding-left: 8rem;
+}
+
+
+.descriptor
+{     display:grid;
+     color:white;
+    font-size:2rem;
+    width:50rem;
+  
+}
+
+.b1
+{     background-color: 	#FBDD7A;
+    border: none;
+    height:5rem;
+    width:20rem;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 3rem;
+    border-radius: 12px;
+    margin-left: 10rem;
+}
+
+.menu
+{width:5rem;
+ height:5rem;
+ 
+cursor: pointer;
+background-color:	#FBDD7A;
+position: fixed;
+animation: bv 5s infinite;
+
+}
+.menu1
+{ 
+    height:5rem;
+    width:4rem;
+    margin-left:0.5rem;
+    background-image: url(menu1.png);
+    background-size: 100% 100%;
+   position:fixed;
+}
+
+ 
+ .sidebar {
+    height: 100%; 
+    width: 0; 
+    position: fixed;
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 6rem; 
+    transition: 0.5s; 
+  }
+  
+
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 2.5rem;
+    font-size: 3.6rem;
+    margin-left: 5rem;
+  
+  }
+  .container
+  {  height: 100vh;
+    display: grid;
+      align-items: center;
+      justify-content: center;
+     
+  }
+  .next 
+  {
+      height:10rem;
+     width:100%;
+     margin-top: 40vh;
+  
+      position:fixed;
+      display:grid;
+      justify-content:space-between;
+      display: flex;
+      animation: mymove1 5s infinite;
+  }
+  .larrow
+  {
+    cursor:pointer;
+    width:8rem;
+    background-image:url(LeftArrow.png);
+    background-repeat: no-repeat;
+   background-size:100% 100% ;
+
+  } 
+  .larrow:hover
+  {
+      background-color:  rgba(0, 0, 0, 0.5);
+  }
+  .rarrow
+  {
+    cursor:pointer;
+    width:8rem;
+    background-image:url(RightAroow.png);
+    background-repeat: no-repeat;
+   background-size:100% 100% ;
+  }
+.rarrow:hover
+{
+    background-color:  rgba(0, 0, 0, 0.5);
+}
+  .area
+  {  
+      display:flex;
+      flex-direction: row;
+      animation: mymove 5s infinite;
+     
+  }
+video
+{ height:50rem;
+
+}

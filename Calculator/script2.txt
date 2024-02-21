@@ -1,0 +1,82 @@
+let str="-7÷3*12+3-3*2÷5-0+12.6";
+let operation="-+*÷";
+const decimalCount = num => {
+    const numStr = String(num);
+    if (numStr.includes('.')) {
+       return numStr.split('.')[1].length;
+    };
+    return 0;
+ }
+function multiplier()
+{    i=str.indexOf('*')-1;j=str.indexOf('*')+1;
+while(i>=0 && operation.indexOf(str[i])==-1)i--;
+if(i==0 && str[i]=='-')i--;
+while(j<str.length && operation.indexOf(str[j])==-1)j++;
+str1=str.slice(i+1,str.indexOf('*'));
+str2=str.slice(str.indexOf('*')+1,j);
+n1=parseFloat(str1);
+n2=parseFloat(str2);
+n=n1*n2;if(decimalCount(n)>6)n=n.toFixed(6);
+str=str.slice(0,i+1)+n+str.slice(j,str.length);
+calculate();
+}
+function divide ()
+{    i=str.indexOf('÷')-1;j=str.indexOf('÷')+1;
+while(i>=0 && operation.indexOf(str[i])==-1)i--;
+if(i==0 && str[i]=='-')i--;
+while(j<str.length && operation.indexOf(str[j])==-1)j++;
+str1=str.slice(i+1,str.indexOf('÷'));
+str2=str.slice(str.indexOf('÷')+1,j);
+n1=parseFloat(str1);
+n2=parseFloat(str2);
+if(n2==0){error=1;return;}
+n=n1/n2;if(decimalCount(n)>6)n=n.toFixed(6);
+str=str.slice(0,i+1)+n+str.slice(j,str.length);
+calculate();
+
+}
+function add()
+{i=str.indexOf('+')-1;j=str.indexOf('+')+1;
+while(i>=0 && operation.indexOf(str[i])==-1)i--;
+if(i==0 && str[i]=='-')i--;
+while(j<str.length && operation.indexOf(str[j])==-1)j++;
+str1=str.slice(i+1,str.indexOf('+'));
+str2=str.slice(str.indexOf('+')+1,j);
+n1=parseFloat(str1);
+n2=parseFloat(str2);
+n=n1+n2;if(decimalCount(n)>6)n=n.toFixed(6);
+str=str.slice(0,i+1)+n+str.slice(j,str.length);
+calculate();
+}
+function decrease()
+{i=m-1;j=m+1;
+while(i>=0 && operation.indexOf(str[i])==-1)i--;
+if(i==0 && str[i]=='-')i--;
+while(j<str.length && operation.indexOf(str[j])==-1)j++;
+str1=str.slice(i+1,m);
+str2=str.slice(m+1,j);
+n1=parseFloat(str1);
+n2=parseFloat(str2);
+n=n1-n2;if(decimalCount(n)>6)n=n.toFixed(6);
+str=str.slice(0,i+1)+n+str.slice(j,str.length);
+calculate();
+
+}
+function calculate()
+{n1=0;str1='';error=0;
+n2=0;str2='';
+m=str.substring(1).indexOf('-');
+if(m!=-1)m++;
+if(str.indexOf('*')!=-1){
+if(str.indexOf('÷')==-1)multiplier();
+else if(str.indexOf('÷')>str.indexOf('*'))multiplier();
+}
+if(str.indexOf('÷')!=-1){divide();if(error)return 'syntax error';}
+if(str.indexOf('+')!=-1){
+    if(m==-1)add();
+    else if(m>str.indexOf('+'))add();
+    }
+if(m!=-1)decrease()
+return str;
+
+};

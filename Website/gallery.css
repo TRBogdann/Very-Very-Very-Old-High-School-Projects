@@ -1,0 +1,769 @@
+
+/*frontpage*/
+
+*,*::after,*::before
+{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0;
+    padding:0;
+    
+    
+   
+}
+.bubble
+{
+visibility:hidden;
+}
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }     
+html{
+    height: 100vh;
+    overflow: hidden;
+  font-size:10px  ;
+  text-shadow: 0.2rem 0.2rem black;
+}
+@media screen and (min-width:0px) {
+    html{
+        font-size: 5px;;
+    }
+    .frontdiv
+    {
+        background-image: url(bg.jpeg);
+    }
+    .frontdiv1
+        {
+            background-image: url(malaga2.jpeg);
+        }
+        .frontdiv2
+        {
+            background-image: url(sevilla2.jpeg);
+        }
+        .frontdiv3
+        {
+            background-image: url(cordoba2.jpeg);
+        }
+        .frontdiv4
+        {
+            background-image: url(Intership2.jpg);
+        }
+        .frontdiv5
+        {
+            background-image: url(vd.jpg);
+        }
+        .frontdiv6
+        {
+            background-image: url(extra.jpeg);
+        }
+
+    .menutxt{
+        margin-left:8rem;
+    }
+    .elink
+    {
+     
+        margin-left:80vw;
+    }
+    .mlink
+    {margin-left:92vw;
+
+    }
+    }
+ 
+    @media screen and (min-width:480px) {
+        html{
+            font-size: 5px;;
+        }
+        .frontdiv
+        {
+            background-image: url(bg.jpeg);
+        }
+        .frontdiv1
+        {
+            background-image: url(malaga2.jpeg);
+        }
+        .frontdiv2
+        {
+            background-image: url(sevilla2.jpeg);
+        }
+        .frontdiv3
+        {
+            background-image: url(cordoba2.jpeg);;
+        }
+        .frontdiv4
+        {
+            background-image: url(Intership2.jpg);
+        }
+        .frontdiv5
+        {
+            background-image: url(vd.jpg);
+        }
+        .frontdiv6
+        {
+            background-image: url(extra.jpeg);
+        }
+
+        .menutxt{
+            margin-left:8rem;
+        }
+   .elink
+        {
+         
+            margin-left:80vw;
+        }
+        .mlink
+        {margin-left:92vw;
+
+        }
+       
+    }
+@media screen and (min-width:800px) {
+    html{
+        font-size: 8px;;
+    }
+    .frontdiv
+    {
+        background-image: url(granada.jpg);
+    }
+    .frontdiv1
+        {
+            background-image: url(malaga.jpg);
+        }
+        .frontdiv2
+        {
+            background-image: url(sevilla.jpg);
+        }
+        .frontdiv3
+        {
+            background-image: url(cordoba.jpg);;
+        }
+        .frontdiv4
+        {
+            background-image: url(Intership1.jpg);
+        }
+        .frontdiv5
+        {
+            background-image: url(vd.jpg);
+        }
+        .frontdiv6
+        {
+            background-image: url(extra.jpeg);
+        }
+ 
+    .menutxt{
+        margin-left:8rem;
+    }
+    .elink
+    {
+     
+        margin-left:80vw;
+    }
+    .mlink
+    {margin-left:92vw;
+
+    }
+    
+    }
+   
+    @media screen and (min-width:1000px) {
+        html{
+            font-size: 8px;;
+        }
+        .bubble
+{
+visibility:visible;
+}
+        .frontdiv
+        {
+            background-image: url("granada.jpg");
+        }
+        .frontdiv1
+        {
+            background-image: url(malaga.jpg);
+        }
+        .frontdiv2
+        {
+            background-image: url(sevilla.jpg);
+        }
+        .frontdiv3
+        {
+            background-image: url(cordoba.jpg);;
+        }
+        .frontdiv4
+        {
+            background-image: url(Intership1.jpg);
+        }
+        .frontdiv5
+        {
+            background-image: url(vd.jpg);
+        }
+        .frontdiv6
+        {
+            background-image: url(extra.jpeg);
+        }
+
+        .menutxt{
+            margin-left:6rem;
+        }
+        .elink
+        {
+         
+            margin-left:88vw;
+        }
+        .mlink
+        {margin-left:95vw;
+
+        }
+    }
+    @media screen and (min-width:1250px) {
+        html{
+            font-size: 10px;;
+        }
+        .frontdiv
+        {
+            background-image: url(granada.jpg);
+        }
+        .frontdiv1
+        {
+            background-image: url(malaga.jpg);
+        }
+        .frontdiv2
+        {
+            background-image: url(sevilla.jpg);
+        }
+        .frontdiv3
+        {
+            background-image: url(cordoba.jpg);;
+        }
+        .frontdiv4
+        {
+            background-image: url(Intership1.jpg);
+        }
+        .frontdiv5
+        {
+            background-image: url(vd.jpg);
+        }
+        .frontdiv6
+        {
+            background-image: url(extra.jpeg);
+        }
+
+        .menutxt{
+            margin-left:6rem;
+        }
+        .elink
+        {
+         
+            margin-left:88vw;
+        }
+        .mlink
+        {margin-left:95vw;
+
+        }
+    }
+
+
+.frontpage
+{display:grid;
+align-items: flex-end;
+
+}
+.frontdiv
+{background-color:blue;
+  
+   height: 100vh;;
+   width:100vw;
+   font-size:2rem;
+   
+
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+   
+}
+.frontdiv1
+{background-color:blue;
+  
+   height: 100vh;;
+   width:100vw;
+   font-size:2rem;
+   
+
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+   
+}
+.frontdiv2
+{background-color:blue;
+  
+   height: 100vh;;
+   width:100vw;
+   font-size:2rem;
+   
+
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+   
+}
+.frontdiv3
+{background-color:blue;
+  
+   height: 100vh;;
+   width:100vw;
+   font-size:2rem;
+   
+
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+   
+}
+
+.frontdiv4
+{background-color:blue;
+  
+   height: 100vh;;
+   width:100vw;
+   font-size:2rem;
+   
+
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+.frontdiv5
+{background-color:blue;
+  
+   height: 100vh;;
+   width:100vw;
+   font-size:2rem;
+   
+
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+.frontdiv6
+{  background-image: linear-gradient(to right,cyan, violet);
+  
+   height: 100vh;;
+   width:100vw;
+   font-size:2rem;
+   
+
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+.frontpage
+{
+background-color: #FBDD7A;
+}
+
+/*#088F8F */
+
+#hd1
+{padding-top:10rem;
+color:white;
+font-size: 6rem;
+display: flex;
+align-items: center;
+justify-content:center;
+
+}
+#hd2
+{padding-top:10rem;
+color:white;
+font-size: 6rem;
+
+display: flex;
+align-items: center;
+justify-content:center;
+}
+
+
+.descriptor
+{     display:grid;
+     color:white;
+    font-size:2rem;
+    width:50rem;
+  
+}
+button
+{
+    text-shadow: 0.1rem 0.1rem black;
+}
+.b1
+{     background-color: 	#FBDD7A;
+    border: none;
+    height:5rem;
+    width:20rem;
+   
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 3rem;
+    border-radius: 12px;
+    margin-left: 1rem;
+}
+.b2
+{     background-color:rgb(138,43,226);
+    border: none;
+    height:5rem;
+    width:20rem;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 3rem;
+    border-radius: 12px;
+    margin-left: 1rem;
+}
+.b3
+{     background-color:green;
+    border: none;
+    height:5rem;
+    width:20rem;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 3rem;
+    border-radius: 12px;
+    margin-left: 1rem;
+}
+.b4
+{     background-color:red;
+    border: none;
+    height:5rem;
+    width:20rem;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 3rem;
+    border-radius: 12px;
+    margin-left: 1rem;
+}
+.b5
+{     background-color:orange;
+    border: none;
+    height:5rem;
+    width:20rem;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 3rem;
+    border-radius: 12px;
+    margin-left: 1rem;
+    margin-top: 10rem;
+}
+
+.b6
+{     background-color:blue;
+    border: none;
+    height:5rem;
+    width:20rem;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 3rem;
+    border-radius: 12px;
+    margin-left: 1rem;
+    margin-top: 10rem;
+}
+.b7
+{     background-color:violet;
+    border: none;
+    height:5rem;
+    width:20rem;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 3rem;
+    border-radius: 12px;
+    margin-left: 1rem;
+    margin-top: 10rem;
+}.b12
+{     background-color: 	#FBDD7A;
+    border: none;
+    height:5rem;
+    width:20rem;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 3rem;
+    border-radius: 12px;
+    margin-left: 1rem;
+}
+.b22
+{     background-color:rgb(138,43,226);
+    border: none;
+    height:5rem;
+    width:20rem;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 3rem;
+    border-radius: 12px;
+    margin-left: 1rem;
+}
+.b32
+{     background-color:green;
+    border: none;
+    height:5rem;
+    width:20rem;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 3rem;
+    border-radius: 12px;
+    margin-left: 1rem;
+}
+.b42
+{     background-color:red;
+    border: none;
+    height:5rem;
+    width:20rem;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 3rem;
+    border-radius: 12px;
+    margin-left: 1rem;
+}
+.b52
+{     background-color:orange;
+    border: none;
+    height:5rem;
+    width:20rem;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 3rem;
+    border-radius: 12px;
+    margin-left: 1rem;
+    margin-top: 10rem;
+}
+
+.b62
+{     background-color:blue;
+    border: none;
+    height:5rem;
+    width:20rem;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 3rem;
+    border-radius: 12px;
+    margin-left: 1rem;
+    margin-top: 10rem;
+}
+.b72
+{     background-color:violet;
+    border: none;
+    height:5rem;
+    width:20rem;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 3rem;
+    border-radius: 12px;
+    margin-left: 1rem;
+    margin-top: 10rem;
+}
+.menu
+{width:5rem;
+ height:5rem;
+ 
+cursor: pointer;
+background-color:	#FBDD7A;
+position: fixed;
+animation: bv 5s infinite;
+
+}
+.menu1
+{ 
+    height:5rem;
+    width:4rem;
+    margin-left:0.5rem;
+    background-image: url(menu1.png);
+    background-size: 100% 100%;
+   position:fixed;
+}
+
+ 
+ .sidebar {
+    height: 100%; 
+    width: 0; 
+    position: fixed;
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 6rem; 
+    transition: 0.5s; 
+  }
+  
+
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 2.5rem;
+    font-size: 3.6rem;
+    margin-left: 5rem;
+  
+  }
+  .container
+  {  height: 80vh;
+      display: grid;
+    align-content: center;
+    justify-content: center;
+     
+  }
+  .next 
+  {
+      height:10rem;
+     width:100%;
+     margin-top: 40vh;
+  
+      position:fixed;
+      display:grid;
+      justify-content:space-between;
+      display: flex;
+      animation: mymove1 5s infinite;
+  }
+  .larrow
+  {
+    cursor:pointer;
+    width:5rem;
+    height:6rem;
+    background-image:url(LeftArrow.png);
+    background-repeat: no-repeat;
+   background-size:100% 100% ;
+
+  } 
+  .larrow:hover
+  {
+      background-color:  rgba(0, 0, 0, 0.5);
+  }
+  .rarrow
+  {
+    cursor:pointer;
+    width:5rem;
+    height:6rem;
+    background-image:url(RightAroow.png);
+    background-repeat: no-repeat;
+   background-size:100% 100% ;
+  }
+.rarrow:hover
+{
+    background-color:  rgba(0, 0, 0, 0.5);
+}
+  .area
+  {  
+      display:flex;
+      flex-direction: row;
+      animation: mymove 5s infinite;
+     
+  }
+  .bubbles
+  { width:100vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-top:75vh;
+    height:4rem;}
+  .bubble
+  { margin:1rem;
+    background-color: #818181;
+   width:2rem;
+   height:2rem;
+   border-radius: 50%;
+   
+  }
+  #bbs1
+  { 
+     
+      background-color: whitesmoke;
+  }
+  .tran
+  {
+    animation: mymove 5s infinite;
+  }
+/*@keyframes mymove {
+   0%{margin-left:0}
+  100% {margin-left:-25%;}
+  }
+  @keyframes mymove1 {
+    0%{margin-left:0}
+   
+    100% {margin-left:200%;}
+    }
+    @keyframes bv {
+        0%{margin-left:0}
+        50%{background-color: blueviolet;}
+        100% {margin-left:200%;background-color: green;}
+        }

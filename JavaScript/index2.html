@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width initial-scale=1.0">
+<meta name="keywords" content="Site">
+<meta name="author" content ="me">
+<title>page 2</title>
+    </head>
+
+<body>
+    <style>
+        body {
+          background-image: url('popcat.gif');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+          display: block;
+        }
+        </style>
+        <style>
+            table,td,th{
+                border:1px solid black;
+    border-width: 3px;
+    border-collapse:collapse;
+    padding:10px
+    
+            }
+        </style>
+    <table style="width:100%;background-color: coral; ">
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+      </table>
+      <h1>Lista nume</h1>
+      <ol style="font-size:20px">
+<li>Alex</li>
+<li>Andrei</li>
+<li>Ion</li>
+      </ol>
+      <h1>Exemplu Formular1</h1>
+      <form action="index.html">
+<label for="fnume">Prenume</label><br>
+<input type="text" value="" id="fname" name="fname" placeholder="Prenume"  ><br>
+<label for="lname">Nume</label><br>
+<input type="text" value="" id="lnume" name="lnume" placeholder="Nume"><br>
+<label for="email">Email</label><br>
+<input type="email" value="" id="email" name="email" placeholder="email"><br>
+<label for="parola">Parola</label><br>
+<input type="password" value="" id="parola" name="parola" placeholder="Parola"><br>
+<input type="submit" id="submit" name="submit" value="Trimite">
+      </form>
+</body>
+<h1>Exemplu formular 2</h1>
+<form action="index.html">
+  <label for="checkbox1">Bifati casuta</label>
+<input type="checkbox" id="checkbox1" nume="checkbox1" value="red1">
+<label for="checkbox2">Bifati casuta</label>
+<input type="checkbox" id="checkbox2" nume="checkbox2" value="red2">
+<br>
+<label for="rad1">Bifeaza casuta</label>
+<input type="radio" id="rad1" nume="rad" value="3">
+<br>
+<label for="data1">Data</label>
+<input type="datetime-local" id="data1" nume="dat" value="12/01/2003">
+<br>
+<label for="file1">Choose a file</label>
+<input type="file" id="file1" nume="fil" >
+<br>
+<label for="range1">1-10</label>
+<input type="range" id="range1" nume="rang" min="1" max="10" value="2" >
+<br>
+<label for="search">Searchbar</label>
+<input type="search" id="searchbar" nume="sb"  >
+<br><br><br>
+<label for="area1">Comentarii</label>
+<textarea name="area1" id="area1" cols="30" rows="10"></textarea>
+<br><br>
+<label for="select1">Selecteaza culoarea </label>
+<select id="select1" nume="sel">
+  <option value="albastru">
+Albastru
+  </option>
+  <option value="galben">
+    Galben  
+      </option>
+      <option value="rosu">
+      Rosu
+          </option>
+   </select>
+   <br><br>
+   <input type="submit" id="sub1" name="sub">
+   <input type="reset" id="res1" name="res">
+</form>
+
+</html>

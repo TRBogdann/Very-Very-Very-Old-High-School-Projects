@@ -1,0 +1,3 @@
+1.To access the app you have to open the "Release" folder and you will find the "Project1.exe" program inside the folder
+2.To access the code you have to open either "Project1.stl" inside the main folder or "Project1.cpp" inside the release folder 
+3.The theme I chose is education. I created an app that can help younger children test their english.

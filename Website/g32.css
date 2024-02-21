@@ -1,0 +1,234 @@
+*,*::after,*::before
+{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0;
+    padding:0;
+    
+   
+}
+html{
+  overflow-x: hidden;
+  font-size:10px  ;
+  text-shadow: 0.2rem 0.2rem black;
+}
+@media screen and (min-width:0px) {
+    html{
+        font-size: 5px;;
+    }
+  
+  .menu1  {
+        width:4vh ;
+    }
+    .menutxt{
+        margin-left:8rem;
+    }
+
+
+    }
+
+@media screen and (min-width:800px) {
+    html{
+        font-size: 5px;;
+    }
+  
+    .menu1  {
+        width:4vh ;
+    }
+    .menutxt{
+        margin-left:8rem;
+    }
+
+
+
+    }
+    
+    @media screen and (min-width:480px) {
+        html{
+            font-size: 5px;;
+        }
+     
+        .menu1  {
+            width:4vh ;
+        }
+        .menutxt{
+            margin-left:8rem;
+        }
+
+
+    }
+    @media screen and (min-width:1000px) {
+        html{
+            font-size: 6.5px;;
+        }
+    
+        .menu1  {
+            width:4rem ;
+        }
+        .menutxt{
+            margin-left:6rem;
+        }
+      
+
+    }
+    @media screen and (min-width:1250px) {
+        html{
+            font-size: 10px;;
+        }
+
+        .menu1  {
+            width:4rem ;
+            
+        }
+        .menutxt{
+            margin-left:6rem;
+        }
+      
+        
+
+    }
+    .menu
+    {width:5rem;
+     height:5rem;
+     z-index:3;
+    cursor: pointer;
+    background-color:	#FBDD7A;
+    position: fixed;
+    animation: bv 5s infinite;
+ 
+    }
+    .ac
+    {
+        height:5rem;
+    }
+    .menu1
+    { 
+        height:5rem;
+        width:4rem;
+        margin-left:0.5rem;
+        background-image: url(menu1.png);
+        background-size: 100% 100%;
+       position:fixed;
+    }
+    
+     
+     .sidebar {
+        height: 100%; 
+        width: 0; 
+        position: fixed;
+        z-index: 3; 
+        top: 0;
+        left: 0;
+        background-color: #111; 
+        overflow-x: hidden; 
+        padding-top: 6rem; 
+        transition: 0.5s; 
+      }
+      
+    
+      .sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 2.5rem;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      
+      .sidebar a:hover {
+        color: #f1f1f1;
+      }
+      
+    
+      .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 2.5rem;
+        font-size: 3.6rem;
+        margin-left: 5rem;
+      
+      }
+
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+      
+    
+      .column {
+        flex: 33%;
+        max-width: 33%;
+        padding: 0 4px;
+      }
+      
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+      }
+      
+    
+      @media screen and (max-width: 800px) {
+        .column {
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+      
+      
+      @media screen and (max-width: 600px) {
+        .column {
+          flex: 100%;
+          max-width: 100%;
+        }
+      } 
+      .bg
+      {   
+          position: fixed;
+          background-image: url("cordoba.jpg");
+          z-index: -1;
+          width:100vw;
+          height:100vh;
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+      }
+      .slider
+    {   
+          position: fixed;
+          background-color:rgb(56,56,56,0.9);
+          z-index:-2;
+          width:100vw;
+          height:100vh;
+         
+      }
+      .info
+      { 
+        height:5rem;
+       background-color: #FBDD7A;
+       color:white;
+       display:grid;
+       align-items: center;
+       justify-items:center ;
+       font-size: 5rem;
+      }
+      .pto
+      {
+       
+        height:90vh;
+        display: grid;
+       justify-content: center;
+      }
+      .simg
+      {
+        height:90vh;
+      }
+.t
+{height:5rem;
+display: grid;
+align-items: center;
+justify-content: center;
+font-size: 5rem;
+color:whitesmoke
+}

@@ -1,0 +1,340 @@
+
+/*frontpage*/
+
+*,*::after,*::before
+{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0;
+    padding:0;
+  
+   
+}
+html{
+    text-shadow: 2px 2px black;
+  font-size:10px  ;
+ overflow-x: hidden;
+
+}
+@media screen and (min-width:0px) {
+    html{
+        font-size: 4px;;
+    }
+    .frontdiv
+    {
+        background-image: url(bg.jpeg);
+    }
+    
+
+    .menutxt{
+        margin-left:8rem;
+    }
+    .elink
+    {
+     
+        margin-left:80vw;
+    }
+    .mlink
+    {margin-left:92vw;
+
+    }
+    }
+
+
+    
+    @media screen and (min-width:480px) {
+        html{
+            font-size: 6px;
+        }
+        .frontdiv
+        {
+            background-image: url(bg.jpeg);
+        }
+
+
+        
+       
+    }
+    @media screen and (min-width:800px) {
+        html{
+            font-size: 8px;;
+        }
+        .frontdiv
+        {
+            background-image:url(WhatsApp\ Image\ 2021-09-08\ at\ 12.29.34.jpeg);
+        }
+
+   
+        
+        }
+    @media screen and (min-width:1000px) {
+        html{
+            font-size: 7px;;
+        }
+        .frontdiv
+        {
+            background-image: url(WhatsApp\ Image\ 2021-09-08\ at\ 12.29.34.jpeg);
+        }
+
+        .menutxt{
+            margin-left:6rem;
+        }
+        .elink
+        {
+         
+            margin-left:88vw;
+        }
+        .mlink
+        {margin-left:95vw;
+
+        }
+    }
+    @media screen and (min-width:1250px) {
+        html{
+            font-size: 10px;;
+        }
+        .frontdiv
+        {
+            background-image: url(WhatsApp\ Image\ 2021-09-08\ at\ 12.29.34.jpeg);
+        }
+
+    }
+
+
+.frontpage
+{display:grid;
+align-items: flex-end;
+
+}
+.frontdiv
+{background-color:blue;
+  
+   height: 94vh;;
+   font-size:2rem;
+   display: grid;
+
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+   align-content: center;
+   justify-content: center;
+   
+}
+.frontpage
+{
+background-color: #FBDD7A;
+}
+
+/*#088F8F */
+
+#hd1
+{padding-top:10rem;
+color:white;
+font-size: 6rem;
+margin-left: 10rem;
+}
+.descriptor
+{     display:grid;
+     color:white;
+    font-size:3rem;
+    width:50rem;
+    margin-left:20rem;
+   ;
+}
+.frontfooter
+{background-color:  	#FBDD7A;
+ display:grid;
+grid-template-columns: repeat(4,10rem);
+
+}
+button
+{
+    text-shadow: 0.05rem 0.05rem black;
+}
+.b1
+{     background-color: 	#FBDD7A;
+    border: none;
+    height:5rem;
+    width:20rem;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 3rem;
+    border-radius: 12px;
+    margin-left: 30rem;
+}
+.links
+{ height:5rem;
+    display:flex;
+flex-direction:row;
+ justify-content: center;
+   width:85vw;
+ 
+}
+.ilink
+{
+    background-size: 100% 100%;
+width:5rem;
+height:5rem;
+background-image: url(icons8-instagram-logo-48.png);
+cursor: pointer;
+}
+.flink
+{   
+    background-size: 100% 100%;
+    width:5rem;
+    height:5rem;
+    background-image: url(icons8-facebook-50.png);
+    cursor: pointer;
+ 
+}
+.menu
+{width:10vw;
+
+display:flex;
+flex-direction: row;
+cursor: pointer;
+}
+.menu1
+{   
+    height:5rem;
+    width:4rem;
+    margin-left:0.5rem;
+    background-image: url(menu1.png);
+    background-size: 100% 100%;
+   position:fixed;
+}
+.menutxt
+{font-size:3rem;  
+margin-top:1rem;
+text-shadow:none;
+position:fixed;
+}
+.elink
+{   
+    background-size: 100% 100%;
+    position:fixed;
+    background-image: url(pngwing.com.png);
+    cursor: pointer;
+    width:10rem;
+    height:5rem;
+
+   
+}
+.mlink
+{   
+    background-size: 100% 100%;
+    width:5rem;
+    height:5rem;
+    background-image: url(mep1.png);
+    position:fixed;
+    cursor: pointer;
+    
+}
+
+
+ 
+ .sidebar {
+    height: 100%; 
+    width: 0; 
+    position: fixed;
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 6rem; 
+    transition: 0.5s; 
+  }
+  
+
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 2.5rem;
+    font-size: 3.6rem;
+    margin-left: 5rem;
+  }
+ /*********************************************** 
+ /*********************************************** 
+ /*********************************************** 
+ /*********************************************** 
+ /*********************************************** 
+ /*********************************************** 
+ /*********************************************** 
+ /*********************************************** 
+ /*********************************************** 
+ /*********************************************** 
+ /*********************************************** 
+ /***********************************************/
+ 
+ /* Gallery*/
+  
+ .topheader
+{background-color:#FBDD7A;
+ display:flex;
+ flex-direction: row;
+height: 6rem;
+width:6rem;
+
+}
+#topmenu
+{
+    margin-top: 1rem;
+}
+.galerrybody
+{
+    background-image: url(granada.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+}
+.area
+{
+    
+    height:88.8rem;
+    display: grid;
+    justify-content: center;
+   
+}
+.textboxG
+{   
+    height:40rem;
+    background-color: rgba(252, 252, 252, 0.5);
+ font-size:2rem;
+display: grid;
+    justify-content: center;
+    align-content: center;
+    width:50rem;
+  
+}
+
+
+.areaname
+{
+   
+        color:white;
+        font-size: 6rem;
+       width: 100vw;
+      display:grid;
+      justify-content: center;
+      margin-bottom:40rem;
+    
+}

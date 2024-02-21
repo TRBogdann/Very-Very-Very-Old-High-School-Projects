@@ -1,0 +1,45 @@
+*{
+padding: 0;
+margin: 0;
+}
+body{
+background-color: rgb(97, 97, 97);
+}
+#menu
+{
+    width:100px;
+height:800px;
+position: relative;
+background-color:gray;
+float:left
+}
+#board
+{
+width:700px;
+height:700px;
+position: relative;
+left:400px;
+float: left;
+
+}
+#board div
+{width:80px;
+    height:80px;
+    border:3px solid black;
+float: left
+
+}
+
+#A1,#A3,#A5,#A7,#B2,#B4,#B6,#B8,#C1,#C3,#C5,#C7,#D2,#D4,#D6,#D8,
+#E1,#E3,#E5,#E7,#F2,#F4,#F6,#F8,
+#G1,#G3,#G5,#G7,#H2,#H4,#H6,#H8
+{
+    background-color: rgb(44, 1, 1);
+}
+#H1,#H3,#H5,#H7,#G2,#G4,#G6,#G8,#F1,#F3,#F5,#F7,#E2,#E4,#E6,#E8,
+#D1,#D3,#D5,#D7,#C2,#C4,#C6,#C8,
+#B1,#B3,#B5,#B7,#A2,#A4,#A6,#A8
+{
+    background-color:bisque;
+}
+

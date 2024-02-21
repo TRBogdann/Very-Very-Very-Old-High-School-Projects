@@ -1,0 +1,515 @@
+﻿  Project1.cpp
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(59,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(85,44): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(86,48): warning C4018: '>': signed/unsigned mismatch
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(122,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(156,32): warning C4244: '=': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(157,32): warning C4244: '=': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(162,18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(163,18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(164,18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(165,18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(166,18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(167,18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(168,18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(169,18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(170,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(182,66): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(182,49): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(253,42): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(253,30): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(254,43): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(254,31): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(255,43): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(255,31): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(256,43): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(256,31): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(257,43): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(257,31): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(258,43): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(258,31): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(259,43): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(259,31): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(260,43): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(260,31): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(264,48): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(264,36): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(265,49): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(265,37): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(266,49): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(266,37): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(267,51): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(267,39): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(268,50): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(268,38): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(269,45): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(269,33): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(270,49): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(270,37): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(271,44): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(271,32): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(272,46): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(272,34): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(273,47): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(273,34): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(370,59): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(369,64): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(379,63): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(378,68): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(388,63): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(387,68): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(397,63): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(396,68): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(406,63): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(405,68): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(415,63): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(414,68): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(424,63): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(423,68): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(433,63): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(432,68): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(442,63): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(441,68): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(451,63): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(450,68): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(466,109): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(466,75): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(471,110): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(471,76): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(476,116): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(476,82): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(481,115): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(481,81): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(486,114): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(486,80): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(491,114): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(491,80): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(496,109): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(496,75): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(501,111): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(501,77): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(506,110): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(506,76): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(511,110): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(511,76): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(950,91): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(951,91): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(952,91): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(953,91): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(146,12): warning C4101: 'y': unreferenced local variable
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(148,10): warning C4101: 'S': unreferenced local variable
+C:\Users\X\Desktop\Project1\Project1\Project1.cpp(146,9): warning C4101: 'x': unreferenced local variable
+  Generating code
+  0 of 145 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Project1.vcxproj -> C:\Users\X\Desktop\Project1\Release\Project1.exe

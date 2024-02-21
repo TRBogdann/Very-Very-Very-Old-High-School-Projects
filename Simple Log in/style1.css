@@ -1,0 +1,26 @@
+.titlef
+{
+    padding-left:1100px;
+
+
+}
+.labels
+{padding-left: 1000px;
+   
+font-family: sans-serif;
+
+
+}
+body{
+background-image: url('ng.png');
+background-repeat: no-repeat;
+background-size:cover;
+background-attachment: fixed;
+}
+.Middle
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+ 
+}
